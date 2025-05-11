@@ -2,7 +2,7 @@ version: 2
 registries:
   private-github:
     type: git
-    url: https://github.com/skuroki/dog
+    url: https://github.com:443/skuroki/dog
     username: x-access-token
     password: ${{secrets.DEPENDABOT_GITHUB_TOKEN}}
 updates:
