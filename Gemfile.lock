@@ -1,0 +1,32 @@
+GIT
+  remote: https://github.com/skuroki/dog
+  revision: 3d6bf4666f191d1dadac01aa7561ae317fb572d6
+  branch: main
+  specs:
+    dog (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.8.8)
+    nokogiri (1.18.8)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    nokogiri (1.18.8-arm64-darwin)
+      racc (~> 1.4)
+    racc (1.8.1)
+    rexml (3.4.1)
+    ruby-saml (1.13.0)
+      nokogiri (>= 1.10.5)
+      rexml
+
+PLATFORMS
+  arm64-darwin-21
+  ruby
+
+DEPENDENCIES
+  dog!
+  ruby-saml (= 1.13.0)
+
+BUNDLED WITH
+   2.5.11
